@@ -1,4 +1,4 @@
-package com.caro.romeocaro.ui.theme
+package com.caro.romeocaro.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

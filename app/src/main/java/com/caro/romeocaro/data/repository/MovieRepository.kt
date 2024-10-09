@@ -11,6 +11,7 @@ class MovieRepository {
         return RetrofitInstance.movieApi.getMovies(page)
     }
 
+
     suspend fun getDetailsById(id:Int): Response<MovieDetailDTO>{
         return RetrofitInstance.movieApi.getDetailsById(id = id)
     }

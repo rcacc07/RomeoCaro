@@ -19,6 +19,7 @@ class MovieViewModel : ViewModel() {
     var state by mutableStateOf(ScreenState())
     var id by mutableIntStateOf(0)
 
+
     private val pagination = PaginationFactory(
         initialPage = state.page,
         onLoadUpdated = {
@@ -39,7 +40,7 @@ class MovieViewModel : ViewModel() {
             state = state.copy(
                 movies = state.movies + items.results,
                 page = newPage,
-                endReached = state.page == 25
+                endReached = state.page == 20
             )
         }
     )

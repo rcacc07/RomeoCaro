@@ -53,6 +53,7 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .background(linearGradientBrush)
                     ) {
+
                         Navigation()
                     }
                 }

@@ -15,7 +15,7 @@ interface MovieApi {
     ): Response<MovieResult>
 
 
-    //https://api.themoviedb.org/3/movie/{movie_id}
+
     @GET("movie/{movie_id}")
     suspend fun getDetailsById(
         @Path("movie_id")id: Int
